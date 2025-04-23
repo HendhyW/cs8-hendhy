@@ -300,15 +300,24 @@ export default function Navbar() {
             </div>
     
             {/* Main navigation items */}
-            <a href="#" className="text-xl font-bold hover:text-gray-300 transition-colors">
+            <a href="#" className="text-xl font-bold hover:text-gray-400 transition-colors">
             STORE
             </a>
-            <a href="#" className="text-lg font-medium hover:text-gray-300 transition-colors">
-            Support
+            <a href="#" className="text-lg font-medium hover:text-gray-400 transition-colors">
+            News
+            </a>
+            <a href="#" className="text-lg font-medium hover:text-gray-400 transition-colors">
+            FAQ
+            </a>
+            <a href="#" className="text-lg font-medium hover:text-gray-400 transition-colors">
+            Help
+            </a>
+            <a href="#" className="text-lg font-medium hover:text-gray-400 transition-colors">
+            About Us
             </a>
             <div className="relative group">
             <div className="flex items-center cursor-pointer">
-                <span className="text-lg font-medium group-hover:text-gray-300 transition-colors">Distribute</span>
+                <span className="text-lg font-medium group-hover:text-gray-400 transition-colors">Distribute</span>
                 <ChevronDown className="h-4 w-4 ml-1 text-gray-400 group-hover:text-white transition-colors" />
             </div>
             </div>
