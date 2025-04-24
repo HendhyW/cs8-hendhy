@@ -6,6 +6,7 @@ import Sekiro from './assets/sekiro.svg'
 import EldenRing from './assets/eldenring.svg'
 import Forza from './assets/forza.svg'
 import { CarouselGame } from './components/Carousel.jsx'
+import Footer from './components/footer.jsx'
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         </div>
 
       </div>
+      <Footer />
     </div>
   )
 }
